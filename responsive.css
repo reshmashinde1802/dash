@@ -1,0 +1,238 @@
+
+@media (max-width: 480px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        max-width: 475px;
+    }
+
+    header p{
+        font-size: small;
+    } 
+    body {
+        overflow-x: hidden;
+        padding-left: 10px;
+    }
+    
+    .cardmain {
+        flex-direction: column;
+        text-align: center;
+        gap:60px;
+    }
+
+    .cardmain > div:last-child {
+        margin-bottom: 15px; 
+    }
+
+    .cardmain img {
+        margin: 0;
+        width: 80px;
+        height: 80px;
+    }
+
+    .mainproducts {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        position: relative;
+    }
+
+    .product-highlight {
+        width: 420px;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 20px 0px;
+        text-align: center;
+        height: 250px;
+    }
+
+    .heading {
+        position: static;
+        line-height: normal;
+    }
+
+    .oilproducts .heading h1 {
+        font-size: 30px;
+        position: relative;
+        left: 20px;
+        top: 40px;
+    }
+
+    .oilproducts .heading h2 {
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 40px;
+    }
+
+    .oilproducts .heading p {
+        font-size: 14px;
+        line-height: 1.5;
+        display: none;
+    }
+
+    .oilproducts .buy-now-btn {
+        padding: 10px 20px;
+        font-size: 10px;
+        position: relative;
+        top: 50px;
+    }
+
+    .discount {
+        position: static;
+    }
+
+    .discountoffer {
+        height: 60px;
+        width: 60px;
+        font-size: 14px;
+        position: relative;
+        top: -15px;
+        left: 45px;
+    }
+
+    .sideproduct {
+        position: static;
+        left: 0;
+    }
+
+    .side-product {
+        padding-left: 10px;
+        border-radius: 5px;
+    }
+
+    .sp1,
+    .sp2 {
+        height: 200px;
+    }
+
+    .sp1main h5,
+    .sp1main h3 {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .sp1main a {
+        font-size: 14px;
+    }
+
+    .banner-text .text-muted{
+        position: relative;
+        left: -30px;
+
+    }
+    .banner-text h2{
+        position: relative;
+        left: -30px;
+
+    }
+    .banner-text a{
+        position: relative;
+        left: 50px;
+    }
+   .app-download {
+    gap: 20px;
+   }
+   .footer{
+    text-align: center;
+   }
+
+   #product1 .pro-container{
+    gap: 20px;
+   }
+
+   #product1 .pro-container .pro{
+    padding-bottom: 10px;
+   }
+
+}
+
+
+@media (max-width: 320px) {
+    body{
+        padding-left: 8px;
+    }
+    header p{
+        font-size: small;
+    } 
+    .navbar .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .navbar .container .call-info{
+        position: relative;
+        left: 70px;
+    }
+
+    .navbar-brand{
+        position: relative;
+        left: -15px;
+    }
+    .banner-text .discover-btn{
+        position: relative;
+        left: 15px;
+    }
+
+    .user-options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .Copyright{
+        padding-bottom:10px ;
+    }
+
+    .user-options i {
+        font-size: 18px;
+    }
+
+    .user-options .nav-link {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer{
+        margin-top: -40px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .navbar-logo img {
+        max-width: 200px;
+    }
+
+    .user-options {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .user-options a {
+        margin-right: 10px;
+    }
+
+    .nav {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .nav-link {
+        margin: 5px;
+        font-size: 14px;
+    }
+}
+
+
